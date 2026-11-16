@@ -9,10 +9,10 @@ public class Funciones1 {
 		return a-b;
 	}
 	public static boolean esPar(int n) {
-		return n/2==0?true:false;
+		return n%2==0?true:false;
 	}
 	public static boolean esImpar(int n) {
-		return n/2==0?false:true;
+		return n%2==0?false:true;
 	}
 
 }
